@@ -11,7 +11,6 @@ cp .env.example .env
 docker compose up --build
 Первый раз качает образы — минут 10. Когда в терминале появится Application startup complete и celery ready — открывай браузер:
 http://localhost:3000
-
 В следующий раз просто docker compose up. Остановить — Ctrl+C.
 
 Работа с программой
